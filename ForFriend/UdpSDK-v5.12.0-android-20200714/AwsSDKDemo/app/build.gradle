@@ -1,0 +1,105 @@
+import java.text.SimpleDateFormat
+
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 28
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        multiDexEnabled true
+
+
+
+
+
+        resConfigs 'ar', 'de', 'el', 'es', 'fr', 'it', 'ja', 'ko', 'ar', 'nl', 'pl', 'pt', 'ru', 'sv', 'th', 'tr', 'vi', 'zh', 'zh-rTW'
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    flavorDimensions "platform"
+    productFlavors {
+
+        onestore{
+            dimension "platform"
+            manifestPlaceholders = [screenOrientation: screenOrientation]
+            applicationId "com.games.android.test1"
+            versionCode 1
+            versionName "1.0.0"
+            resValue "string", "app_name", "UdpDemo-One"
+            resValue "string", "store_code", "OneStore"
+        }
+        samsung{
+            dimension "platform"
+            applicationId "com.games.android.test1"
+            versionCode 1
+            versionName "1.0.0"
+            resValue "string", "app_name", "SdkDemo-Samsung"
+            resValue "string", "store_code", "Samsung"
+        }
+        google{
+            dimension "platform"
+            manifestPlaceholders = [screenOrientation: screenOrientation]
+            applicationId "com.games.android.test1"
+            versionCode 1
+            versionName "1.0.0"
+            resValue "string", "app_name", "UdpDemo-5"
+            resValue "string", "store_code", "android"
+        }
+    }
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    lintOptions {
+        abortOnError false
+    }
+    compileOptions {
+        // 能解决问题："Invoke-customs are only supported starting with Android O (--min-api 26)"
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
+    android.applicationVariants.all {
+        variant ->
+            variant.outputs.all {
+                //这里修改apk文件名
+                outputFileName = "udp-${productFlavors.name}-${gamesSdkVersion}-${new SimpleDateFormat("MMdd").format(new Date())}-${releaseVersion}-${screenOrientationAbbr}.apk".replace("[","").replace("]","")
+            }
+    }
+}
+repositories {
+    flatDir {
+        dirs 'libs', '../gamesdk/libs'
+    }
+}
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testImplementation 'junit:junit:4.12'
+
+
+    implementation project(':gamesdk')
+
+    // --------以下内容可根据运营需求进行删减-----------
+    implementation project(':KTPlay')
+    implementation project(':PlugSdk')
+    gradle.startParameter.getTaskNames().each { task ->
+        if(task.contains("samsung")) {
+            implementation project(':SamsungBillingSdk')
+        }
+    }
+    implementation(name: 'line-sdk-4.0.8', ext: 'aar')
+    implementation(name: 'vk-sdk-1.6.9.1', ext: 'aar')
+}
+apply plugin: 'com.google.gms.google-services'

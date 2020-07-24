@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="270dp"
+    android:background="@drawable/kt_hot_influence_item_border"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    android:orientation="vertical">
+
+    <!--用户头像 -->
+    <ImageView
+        android:id="@id/kt_item_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="6dp"
+        android:paddingStart="6dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <!--用户rank -->
+        <TextView
+            android:id="@+id/kt_common_iv_1"
+            android:layout_width="30dp"
+            android:layout_height="18dp"
+            android:textColor="@color/kryptanium_text_white"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:id="@+id/kt_common_iv_2"
+            android:layout_width="30dp"
+            android:layout_height="18dp"
+            android:gravity="center"
+            android:visibility="gone"
+            />
+
+        <!--用户昵称 -->
+        <com.ktplay.widget.KTEmojiText
+            android:id="@+id/kt_common_iv_3"
+            style="@style/kryptanium_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="6dp"
+            android:paddingStart="6dp"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            />
+
+    </LinearLayout>
+
+    <!--用户bio -->
+    <com.ktplay.widget.KTEmojiText
+        android:id="@+id/kt_common_view_4"
+        style="@style/kryptanium_primary_text"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="8dp"
+        android:paddingRight="6dp"
+        android:paddingEnd="6dp"
+        android:ellipsize="end"
+        android:paddingLeft="6dp"
+        android:paddingStart="6dp"
+        android:maxLines="2" />
+
+    <!--影响力分值-->
+    <TextView
+        android:id="@id/kt_common_view_5"
+        style="@style/kryptanium_hint_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="6dp"
+        android:paddingStart="6dp"
+        android:layout_marginTop="8dp" />
+
+    <!--关注-->
+    <TextView
+        android:id="@id/kt_common_view_6"
+        style="@style/kryptanium_hint_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="6dp"
+        android:paddingStart="6dp"
+        android:layout_marginTop="4dp" />
+</LinearLayout>

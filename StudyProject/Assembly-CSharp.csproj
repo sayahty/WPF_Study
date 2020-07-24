@@ -61,6 +61,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\test.cs" />
+    <Compile Include="Assets\UTJ\FrameCapturer\Scripts\AudioRecorder.cs" />
+    <Compile Include="Assets\UTJ\FrameCapturer\Scripts\Encoder\AudioEncoder.cs" />
+    <Compile Include="Assets\UTJ\FrameCapturer\Scripts\Encoder\EncoderBase.cs" />
+    <Compile Include="Assets\UTJ\FrameCapturer\Scripts\Encoder\ExrEncoder.cs" />
+    <Compile Include="Assets\UTJ\FrameCapturer\Scripts\Encoder\fcAPI.cs" />
+    <Compile Include="Assets\UTJ\FrameCapturer\Scripts\Encoder\FlacEncoder.cs" />
+    <Compile Include="Assets\UTJ\FrameCapturer\Scripts\Encoder\GifEncoder.cs" />
+    <Compile Include="Assets\UTJ\FrameCapturer\Scripts\Encoder\MovieEncoder.cs" />
+    <Compile Include="Assets\UTJ\FrameCapturer\Scripts\Encoder\MP4Encoder.cs" />
+    <Compile Include="Assets\UTJ\FrameCapturer\Scripts\Encoder\OggEncoder.cs" />
+    <Compile Include="Assets\UTJ\FrameCapturer\Scripts\Encoder\PngEncoder.cs" />
+    <Compile Include="Assets\UTJ\FrameCapturer\Scripts\Encoder\WaveEncoder.cs" />
+    <Compile Include="Assets\UTJ\FrameCapturer\Scripts\Encoder\WebMEncoder.cs" />
+    <Compile Include="Assets\UTJ\FrameCapturer\Scripts\GBufferRecorder.cs" />
+    <Compile Include="Assets\UTJ\FrameCapturer\Scripts\Misc\Bool.cs" />
+    <Compile Include="Assets\UTJ\FrameCapturer\Scripts\Misc\DataPath.cs" />
+    <Compile Include="Assets\UTJ\FrameCapturer\Scripts\MovieRecorder.cs" />
+    <Compile Include="Assets\UTJ\FrameCapturer\Scripts\RecorderBase.cs" />
+    <None Include="Assets\StreamingAssets\UTJ\FrameCapturer\License.txt" />
+    <None Include="Assets\UTJ\FrameCapturer\Shaders\CopyFrameBuffer.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>F:/repo/myStudy/StudyProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

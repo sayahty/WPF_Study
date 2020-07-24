@@ -1,0 +1,7 @@
+1、 修改导航背景及选中颜色，涉及文件"res/values/kryptanium_theme_colors_default.xml"
+    将<color name="kt_theme_navigationbar_background">@color/kt_theme_color</color>
+        <color name="kt_theme_navigationitem_selected">#ff24a3dc</color>
+    修改为<color name="kt_theme_navigationbar_background">#0183d5</color>
+        <color name="kt_theme_navigationitem_selected">#0072B9</color>
+
+2、修改icon图片，涉及文件"res/drawable-xhdpi-v4/kt_icon.png"

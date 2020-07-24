@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+	tools:ignore="TypographyDashes|MissingTranslation">
+
+<!-- 此文档内容为自动生成，不能修改。 -->
+
+	<string name="game_code" translatable="false">mvpemen</string>
+	<string name="store_code" translatable="false">google</string>
+	<string name="mdata_app_id" translatable="false">2586711639</string>
+	<string name="mdata_security_key" translatable="false">bIxZN3m0qVObdZJyXCBtLpLWLEtu3Xvg</string>
+
+	<string name="facebook_app_id" translatable="false">928499977577666</string>
+	<string name="facebook_sharing_url" translatable="false">https://www.facebook.com/Valonia-Puzzles-Epic-Match-3-107523114358918/?modal=admin_todo_tour</string>
+
+	<string name="adjust_app_token" translatable="false">45g00ajj0d8g</string>
+	<string name="adjust_default_tracker" translatable="false"></string>
+
+	<string name="ktplay_app_key" translatable="false"></string>
+	<string name="ktplay_app_secret" translatable="false"></string>
+
+
+
+	<string name="twitter_consumer_key" translatable="false">VgSTjcBNaIovNNMpeJR9tK8UA</string>
+	<string name="twitter_consumer_secret" translatable="false">AK5dqCWkrPIKLAVAvZKkZdA9NYSn8oL8Jvl2xUi98AcPE04ViQ</string>
+	<string name="twitter_sharing_url" translatable="false"></string>
+
+	<string name="line_app_channel_id" translatable="false"></string>
+
+	<integer name="vk_app_id">0</integer>
+	<string name="vk_sharing_url" translatable="false"></string>
+
+	<string name="googleplay_app_id" translatable="false">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzIto8QG7+UpTMr98v0DwKAsLGOJWTMK24DLO+H19jhd9um4BY9hf3H1OzCFfBbms/lktf6XNQJgQQvPqeMSTu8frddOEYKfauZKJKMr32eBtSV82vdynG6HurXz845HGSAzN9GORJ9kucqDJ61g8l3SaorCIntK05z3mJ4hm4yJ7v1TxFrwUKlQe1e7fe6eMB6Fbks168PQaLSI/jYMrzkUA9l6P1mI1Yca6c1jQvnWuG8z4SjQLKxbvFCWrPYYYam4SFViRMRD1sk1pTDUMFfbZg+LfAd6cQ7j6m2yYV3SqtPmBHvAoOwq/sDxGcklTUP08I8RI6PVha2iFuTDC7QIDAQAB</string>
+
+	<string name="sign_secret" translatable="false">!WF7JZr3mJwE]Xj0OXHGd@#q=V!=zJ,5</string>
+	<string name="order_verification_secret" translatable="false">!WF7JZr3mJwE]Xj0OXHGd@#q=V!=zJ,5</string>
+	<string name="sdk_environment" translatable="false">production</string>
+
+	<integer name="com_vk_sdk_AppId">@integer/vk_app_id</integer>
+	<string name="line_app_channelId" translatable="false">@string/line_app_channel_id</string>
+	<string name="com.twitter.sdk.android.CONSUMER_KEY" translatable="false">@string/twitter_consumer_key</string>
+	<string name="com.twitter.sdk.android.CONSUMER_SECRET" translatable="false">@string/twitter_consumer_secret</string>
+
+	<string name="adjust_secret_id" translatable="false">1</string>
+	<string name="adjust_info1" translatable="false">1897939549</string>
+	<string name="adjust_info2" translatable="false">2101848780</string>
+	<string name="adjust_info3" translatable="false">808411107</string>
+	<string name="adjust_info4" translatable="false">1636062351</string>
+	<string name="admob_app_id" translatable="false"></string>
+
+	<string name="plug_client_id" translatable="false"></string>
+	<string name="plug_client_secret" translatable="false"></string>
+	<string name="plug_cafe_id" translatable="false"></string>
+
+	<string name="onestore_license_key" translatable="false"></string>
+</resources>

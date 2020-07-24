@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+	tools:ignore="TypographyDashes|MissingTranslation">
+
+	<!-- 此文档内容为自动生成，不能修改。 -->
+
+	<string name="game_code" translatable="false">mtest5xen</string>
+<!--	<string name="store_code" translatable="false">OneStore</string>-->
+	<string name="mdata_app_id" translatable="false">138890319</string>
+	<string name="mdata_security_key" translatable="false">bIxZN3m0qVObdZJyXCBtLpLWLEtu3Xvg</string>
+
+	<string name="facebook_app_id" translatable="false">742527692934031</string>
+	<string name="facebook_sharing_url" translatable="false">https://www.facebook.com/almas.imortais.pt/</string>
+
+	<string name="adjust_app_token" translatable="false">kg99qh5x5ldq</string>
+	<string name="adjust_default_tracker" translatable="false">1dbqkz1</string>
+
+    <string name="adjust_secret_id" translatable="false">1</string>
+    <string name="adjust_info1" translatable="false">641138270</string>
+    <string name="adjust_info2" translatable="false">1976824494</string>
+    <string name="adjust_info3" translatable="false">38418844</string>
+    <string name="adjust_info4" translatable="false">1712344739</string>
+
+	<string name="ktplay_app_key" translatable="false">O1qtKMKXM</string>
+	<string name="ktplay_app_secret" translatable="false">69ae37b4d4daa55fcb9138821c76901244e520ba</string>
+
+	<string name="plug_client_id" translatable="false">HbyFoMt0l73PdbaIvV7A</string>
+	<string name="plug_client_secret" translatable="false">3twiQP55a1</string>
+	<string name="plug_cafe_id" translatable="false">29950079</string>
+
+    <string name="admob_app_id" translatable="false">ca-app-pub-6763064123202033~6161905244</string> <!-- ca-app-pub-1835682538587664~4614694326 -->
+
+	<string name="twitter_consumer_key" translatable="false">hv7VjcDLhrnXseIAwFMIA</string><!--测试 VgSTjcBNaIovNNMpeJR9tK8UA-->
+	<string name="twitter_consumer_secret" translatable="false">dfTbbC5bFMSbwCDg2pUvSW7ZPRMhP71aoF3qCgzEiI</string><!--测试 AK5dqCWkrPIKLAVAvZKkZdA9NYSn8oL8Jvl2xUi98AcPE04ViQ-->
+	<string name="twitter_sharing_url" translatable="false">https://www.facebook.com/almas.imortais.pt/</string>
+
+	<string name="line_app_channel_id" translatable="false">1653459062</string>
+
+	<integer name="vk_app_id">7232128</integer>
+	<string name="vk_sharing_url" translatable="false">https://www.facebook.com/almas.imortais.pt/</string>
+
+	<string name="googleplay_app_id" translatable="false">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgkpsx26TXqpWlh55j2m9UhL1C3kIh8pw/2ZWf714HzFjcn6nhs01iMsNUShwJH3p3Ki/2t33A07O65HDh9wOJbCNQmZrUxw64HnXkpI59fxoejerHU6PGUgip/pwrEEgDBU9rDLLltKGiqJGlUD4A+qI9B/VyWX1/rFi3AOoYhf8sEv1oEg8+TtVLcdpe2/CQAHLQHLOY6fpYCrHxkBpxaQ+Jfilc1ZnhoS0UlwQxgFM1AHN12r3Z3xVn/uMBbQU4fa8e03mFwUW1m2EcDPmiyRKkTnX1iexsF6w/IuBdGL10fyGyaLw5/kt8HzD5T34lkHetqrvPr+9Zi3yyuponwIDAQAB</string>
+
+	<string name="onestore_license_key" translatable="false">MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCHuuHsdb3OeNY9N6/Gg6ZMhSWn00RvaftPTe5YI6DPD9zecPr2Vg3y2OpoUFj/+n7bkWZDZYPRnaEXiXfOW4GjR4DGHLxWkfWfkHCalLaPvQnDp19WRRCSHlc/+LAFPlidK6lhNoP/x24yrmcx5ChfA4KpoSA4pBra966NKjnUBQIDAQAB</string>
+
+	<string name="sign_secret" translatable="false">ggsaPOLW05QpMfj1w5SotegFUQgpMb</string>
+	<string name="order_verification_secret" translatable="false">!WF7JZr3mJwE]Xj0OXHGd@#q=V!=zJ,5</string>
+	<string name="sdk_environment" translatable="false">test</string>
+
+	<integer name="com_vk_sdk_AppId">@integer/vk_app_id</integer>
+	<string name="line_app_channelId" translatable="false">@string/line_app_channel_id</string>
+	<string name="com.twitter.sdk.android.CONSUMER_KEY" translatable="false">@string/twitter_consumer_key</string>
+	<string name="com.twitter.sdk.android.CONSUMER_SECRET" translatable="false">@string/twitter_consumer_secret</string>
+</resources>
